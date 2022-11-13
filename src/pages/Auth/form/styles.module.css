@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input {
+  padding: 12px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 66, 105, 0.28);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.password {
+  position: relative;
+  width: 100%;
+}
+
+.passToggle {
+  border: 0px solid transparent;
+  background: transparent;
+  position: absolute;
+  right: 8px;
+  top: calc(50% - 6px);
+  transform: translateY(-50%);
+}
+
+.button {
+  appearance: none;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  pointer-events: none;
+  filter: grayscale(0.2);
+}

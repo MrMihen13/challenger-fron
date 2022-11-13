@@ -1,0 +1,14 @@
+.wrapper {
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  padding: 16px 24px;
+}
+
+.profile {
+  flex: 0 0 30px;
+}

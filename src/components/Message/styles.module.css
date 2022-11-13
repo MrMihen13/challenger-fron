@@ -1,0 +1,28 @@
+.wrapper {
+  padding: 20px 24px;
+  max-width: 65%;
+  margin-bottom: 20px;
+}
+
+.wrapper.me {
+  align-self: flex-end;
+  background: var(--light-0);
+  color: var(--dark-0);
+  border-radius: 10px 2px 10px 10px;
+}
+
+.wrapper.partner {
+  align-self: flex-start;
+  background: var(--accent-blue-1);
+  color: var(--light-0);
+  border-radius: 8px 8px 8px 2px;
+}
+
+.attachment {
+  max-width: 100%;
+}
+
+.attachment img {
+  object-fit: contain;
+  width: 100%;
+}

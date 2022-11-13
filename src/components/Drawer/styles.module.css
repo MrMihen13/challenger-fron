@@ -1,0 +1,33 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.wrapper.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.content {
+  height: 55vh;
+  width: 100%;
+  position: relative;
+  top: 100%;
+  left: 0;
+  transition: 0.4s ease-in-out;
+  transform: translateY(0);
+  background: var(--light-0);
+  border-radius: 35px 35px 0px 0px;
+  padding: 28px;
+}
+
+.wrapper.open .content {
+  transform: translateY(-100%);
+}
